@@ -1,0 +1,11 @@
+C:\Users\Lia\source\repos\HashTool\HashTool\bin\Debug\HashTool.exe.config
+C:\Users\Lia\source\repos\HashTool\HashTool\bin\Debug\HashTool.exe
+C:\Users\Lia\source\repos\HashTool\HashTool\bin\Debug\HashTool.pdb
+C:\Users\Lia\source\repos\HashTool\HashTool\obj\Debug\HashTool.csproj.AssemblyReference.cache
+C:\Users\Lia\source\repos\HashTool\HashTool\obj\Debug\HashTool.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lia\source\repos\HashTool\HashTool\obj\Debug\HashTool.Form1.resources
+C:\Users\Lia\source\repos\HashTool\HashTool\obj\Debug\HashTool.Properties.Resources.resources
+C:\Users\Lia\source\repos\HashTool\HashTool\obj\Debug\HashTool.csproj.GenerateResource.cache
+C:\Users\Lia\source\repos\HashTool\HashTool\obj\Debug\HashTool.csproj.CoreCompileInputs.cache
+C:\Users\Lia\source\repos\HashTool\HashTool\obj\Debug\HashTool.exe
+C:\Users\Lia\source\repos\HashTool\HashTool\obj\Debug\HashTool.pdb
