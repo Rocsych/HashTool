@@ -26,7 +26,9 @@ namespace HashTool
                 case "Base64":
                     decryptbox.Text = rcs.base64Decode(hashbox.Text);
                     break;
-
+                case "Hex":
+                    decryptbox.Text = rcs.HexToString(hashbox.Text);
+                    break;
             }
         }
         private void encodebut_Click(object sender, EventArgs e)
@@ -35,7 +37,13 @@ namespace HashTool
             {
                 case "Base64":
                 hashbox.Text = rcs.base64Encode(decryptbox.Text);
-                break;
+                    break;
+                case "Hex":
+                    hashbox.Text = rcs.BytesToHex(Encoding.UTF8.GetBytes(decryptbox.Text));
+                    break;
+                case "MD5":
+                    hashbox.Text = rcs.MD5Encode(decryptbox.Text);
+                    break;
             }
         }
         private void Form1_Load(object sender, EventArgs e)
