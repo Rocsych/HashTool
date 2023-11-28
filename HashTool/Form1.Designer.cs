@@ -76,7 +76,10 @@
             // 
             this.hashtypecombo.FormattingEnabled = true;
             this.hashtypecombo.Items.AddRange(new object[] {
-            "Base64"});
+            "Base64",
+            "Hex",
+            "MD5",
+            "SHA256"});
             this.hashtypecombo.Location = new System.Drawing.Point(13, 49);
             this.hashtypecombo.Name = "hashtypecombo";
             this.hashtypecombo.Size = new System.Drawing.Size(153, 21);

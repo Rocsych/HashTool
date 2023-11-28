@@ -73,12 +73,32 @@ namespace HashTool
         {
             try
             {
-                using(System.Security.Cryptography.MD5 MD5 = System.Security.Cryptography.MD5.Create())
+                using(MD5 MD5 = MD5.Create())
                 {
                     byte[] stringbytes = Encoding.UTF8.GetBytes(toHash);
                     byte[] hashedtext = MD5.ComputeHash(stringbytes);
                     return BytesToHex(hashedtext);
                 }               
+            }
+            catch (Exception e)
+            {
+                return e.Message;
+            }
+        }
+        public string SHA256Encode(string toHash)
+        {
+            try
+            {
+                using (SHA256 SHA256 = SHA256.Create())
+                {
+                    byte[] hashedtext = SHA256.ComputeHash(Encoding.UTF8.GetBytes(toHash));
+                    StringBuilder sb = new StringBuilder();
+                    for (int i = 0; i < hashedtext.Length; i++)
+                    {
+                        sb.Append(hashedtext[i].ToString("X2"));
+                    }
+                    return sb.ToString();          
+                }
             }
             catch (Exception e)
             {

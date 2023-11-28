@@ -44,6 +44,9 @@ namespace HashTool
                 case "MD5":
                     hashbox.Text = rcs.MD5Encode(decryptbox.Text);
                     break;
+                case "SHA256":
+                    hashbox.Text = rcs.SHA256Encode(decryptbox.Text);
+                    break;
             }
         }
         private void Form1_Load(object sender, EventArgs e)
